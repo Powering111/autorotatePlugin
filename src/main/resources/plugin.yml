@@ -1,0 +1,31 @@
+name: $pluginName
+main: $pluginMain
+author : JJT
+api-version: '1.20'
+version: $version
+
+commands:
+  p1:
+    description: "set position 1"
+    usage: "/p1"
+  p2:
+    description: "set position 2"
+    usage: "/p2"
+  p3:
+    description: "set various properties"
+    usage: "/p3 <propertyName> <propertyValue>\n property types : xmargin, zmargin, zcnt"
+  pr:
+    description: "reset position and properties"
+    usage: "/pr"
+  rot:
+    description: "perform auto rotation"
+    usage: "/rot"
+  reg:
+    description: "show selected pos1-pos2 region"
+    usage: "/reg"
+  water:
+    description: "set water block "
+    usage: "/water"
+  cur:
+    description: "apply current room's change"
+    usage: "/cur"
